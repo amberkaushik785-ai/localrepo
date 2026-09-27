@@ -1,1 +1,60 @@
-<p>this is my new repo.</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css practice</title>
+    <style>
+        p:first-child {
+            color: red;
+            background-color: yellow;
+        }
+
+        div {
+            color: white;
+            background-color: blue;
+        }
+
+        /* div p:first-child{
+            color: red;
+            background-color: yellow;
+        }
+        p{
+            color: white;
+            background-color: blue;
+        } */
+
+
+
+        /*this is used for any nth child to be used inside a parent element*/
+        div p:nth-child(2) { 
+            background-color: yellow;
+            color: red;
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum delectus, veniam quam, ad sed iure hic,
+            optio ducimus eos perspiciatis eum eaque rem!</p>
+        <p>this is my second paragraph.</p>
+        <p>this is my third paragraph.</p>
+        <p>this is my fourth paragraph.</p>
+        <p>this is my fifth paragraph.</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum delectus, veniam quam, ad sed iure hic,
+            optio ducimus eos perspiciatis eum eaque rem!</p>
+        <p>this is my second paragraph.</p>
+        <p>this is my third paragraph.</p>
+        <p>this is my fourth paragraph.</p>
+        <p>this is my fifth paragraph.</p>
+    </div>
+</body>
+
+</html>
